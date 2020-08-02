@@ -1,0 +1,52 @@
+.slack { 
+    display: grid;
+    background-color: #19171D;
+    margin: 8px;
+    padding: 2px;
+    min-height: 130px
+}
+.canales{
+    color: #757477;
+    font-family: Content-font, Roboto, sans-serif;
+    
+}
+
+ul{
+    list-style: none
+}
+
+
+
+.contactos {
+    color: #757477;
+    font-family: Content-font, Roboto, sans-serif;
+    grid-column: 2 / span 3;
+    border-left: 1px solid #2f2f30;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.mensajes{
+    border: 1px solid #757477;
+    border-radius: 5px
+    
+}
+.input {
+    border: 0;
+    background-color: transparent;
+    color: whitesmoke;
+    font-style: oblique;
+    
+}
+
+.enviar {
+    border:0;
+    background-color: transparent;
+    font-family:Content-font, Roboto, sans-serif;
+    color: whitesmoke;
+}
+
+
+
