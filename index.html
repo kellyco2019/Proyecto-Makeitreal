@@ -11,7 +11,8 @@
     <div class ="slack">
         <div class="canales">
             <ul> 
-               <li>course</li>
+               <li class = "seleccionado">
+                   course</li>
                <li>css</li>
                <li>ejercicios</li>
                <li>frameworks</li>
@@ -20,37 +21,45 @@
                <li>html</li>
                <li>javascript</li>
             </ul>
-        </div>
-
-        <div class = "contacto">
-            <ul>
-                <li>Gina Gonzales  
-                    <img src="" alt="">
-                    <p>Hola como vas? </p>
-                    <span class="time-right">11:02</span>
-                </li>
-                <li>kelly Correa   
-                        <img src="" alt="">
-                        <p>Hola como vas? </p>
-                        <span class="time-right">11:02</span>   
-                </li>
-                <li>Diana Perez     
-                            <img src="" alt="">
-                            <p>Hola como vas? </p>
-                            <span class="time-right">11:02</span>
-                </li>
-                <li>leonardo Torres 
-                                <img src="" alt="">
-                                <p>Hola como vas? </p>
-                                <span class="time-right">11:02</span>
-                </li>        
-                </ul>
-        </div>
-        <form>
-            <textarea rows="8" ></textarea> 
-            <button > enviar </button>
-        </form>
+        </div> 
         
-    </div>
+        <div class = "contactos">
+            <ul> 
+                <li><img src="" alt="">
+                    <strong> Gina Gonzales</strong>   
+                      <span class="time-right">11:02</span>
+                      <p>Hola como vas? </p>
+                    
+                </li>
+                <li>  <img src="" alt="">
+                      <strong> kelly Correa</strong>   
+                      <span class="time-right">11:02</span>
+                      <p>Hola como vas? </p>  
+                </li> 
+                <li> <img src="" alt="">
+                     <strong> Leonardo Torres</strong>   
+                     <span class="time-right">11:02</span>
+                     <p>Hola como vas? </p>
+                </li>
+                <li> <img src="" alt="">  
+                     <strong> Leonardo Torres</strong>   
+                     <span class="time-right">11:02</span>
+                     <p>Hola como vas? </p>
+                </li>        
+            </ul>
+            <form class = "mensajes">
+                <textarea 
+                    class = "input"
+                    placeholder="Escribe tu mensaje aqui"
+                    type="text" 
+                    autocomplete="off"
+                    id="msj">
+                </textarea>
+                
+            <button  class="enviar" type="submit"> > </button> 
+            </button>
+                </form>
+        </div>
 </body>
 </html>
+                
