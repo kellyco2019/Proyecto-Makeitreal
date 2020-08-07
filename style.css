@@ -3,20 +3,48 @@
     background-color: #19171D;
     margin: 8px;
     padding: 2px;
-    min-height: 130px
+    min-height: 99vh
 }
-.canales{
+h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family:Content-font, Roboto, sans-serif;
+    padding:  5px;
+    margin: 10px;
+
+}
+.canales {
+    
     color: #757477;
     font-family: Content-font, Roboto, sans-serif;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+} 
+
+li hover {
+    color: #1164A3;
 }
+
 .seleccionado {
     background-color: #1164A3;
 }
-ul{
-    list-style: none
+
+ul {
+    list-style: none;
+    font-size: 15px;
+    color: #757477;
+    font-family: Content-font, Roboto, sans-serif;
 }
-.contactos {
+.nombre {
     color: #ffffff;
+}
+
+.chat {
+    color: #ffffff;
+    background-color: #1a1d21;
     font-family: Content-font, Roboto, sans-serif;
     grid-column: 2 / span 3;
     border-left: 1px solid #2f2f30;
@@ -24,22 +52,39 @@ ul{
     flex-direction: column;
     justify-content: flex-end;  
 }
-.mensajes{
+
+.mensajes {
     border: 1px solid #757477;
-    border-radius: 5px 
+    border-radius: 3px;
+    width: 100;
+    height: 34Px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4px;
 }
+
 .input {
     border: 0;
     background-color: transparent;
     color: whitesmoke;
-    font-style: oblique; 
+    font-style: unset; 
+    font-size: 15px;
+    height: 100%;
+    width: 96%;
+    padding: 15px ;
+    outline: none;
 }
 
 .enviar {
     border:0;
-    background-color: transparent;
+    background-color: #222529;
     font-family:Content-font, Roboto, sans-serif;
     color: whitesmoke;
+    height: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
 }
 
 
