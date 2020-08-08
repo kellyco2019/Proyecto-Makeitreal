@@ -42,8 +42,10 @@ h2 {
    
 } 
 
-li hover {
-    color: #1164A3;
+li {
+
+    margin-right: 80px;
+    margin-left: 40px;
 }
 
 .seleccionado {
