@@ -1,5 +1,5 @@
 .body {
-    margin: 0 ;
+    margin: 0px ;
 } 
 
 ::-webkit-scrollbar {
@@ -19,8 +19,8 @@
 .slack { 
     display: grid;
     background-color: #19171D;
-    margin: 8px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
     min-height: 99vh
 }
 h2 {
@@ -31,18 +31,22 @@ h2 {
     margin: 10px;
 
 }
+
 .canales {
     
-    color: #757477;
+    color: #eae9eb;
     font-family: Content-font, Roboto, sans-serif;
     border-radius: 0.5em;
     padding: 0.5em;
     margin-left: 10px;
-    margin-right: 10px;
-   
+    margin-right: 10px;   
 } 
 
-li {
+.canales li:hover {
+    background-color: #757477;
+}
+
+li  {
 
     margin-right: 80px;
     margin-left: 40px;
@@ -50,7 +54,9 @@ li {
 
 .seleccionado {
     background-color: #1164A3;
+
 }
+
 
 ul {
     list-style: none;
