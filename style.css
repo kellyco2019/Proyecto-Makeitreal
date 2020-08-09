@@ -1,5 +1,5 @@
 .body {
-    margin: 0px ;
+    margin: 0px;
 } 
 
 ::-webkit-scrollbar {
@@ -29,7 +29,10 @@ h2 {
     font-family:Content-font, Roboto, sans-serif;
     padding:  5px;
     margin: 10px;
+}
 
+.canales li:hover {
+    background-color: #757477;
 }
 
 .canales {
@@ -38,25 +41,17 @@ h2 {
     font-family: Content-font, Roboto, sans-serif;
     border-radius: 0.5em;
     padding: 0.5em;
-    margin-left: 10px;
-    margin-right: 10px;   
+    padding-inline-start: 0px ;
+    margin-left: 20px;  
 } 
 
-.canales li:hover {
-    background-color: #757477;
-}
-
-li  {
-
-    margin-right: 80px;
-    margin-left: 40px;
-}
-
-.seleccionado {
+.c1 {
     background-color: #1164A3;
-
+    margin-bottom: 5px;
 }
-
+.c2 { 
+    margin-bottom: 5px;
+}
 
 ul {
     list-style: none;
@@ -64,11 +59,13 @@ ul {
     color: #757477;
     font-family: Content-font, Roboto, sans-serif;
 }
+
 .nombre {
     color: #ffffff;
+    font-size: 15px;
 }
 
-.chat {
+.mensajes {
     color: #ffffff;
     background-color: #1a1d21;
     font-family: Content-font, Roboto, sans-serif;
@@ -79,7 +76,17 @@ ul {
     justify-content: flex-end;  
 }
 
-.mensajes {
+.imagperfil {
+    border-radius: 5px;
+}
+.cajamensajes {
+    width: auto;
+    height: 50px;
+    margin: 30px;
+
+}
+
+.chat {
     border: 1px solid #757477;
     border-radius: 3px;
     width: 100;
@@ -87,7 +94,7 @@ ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 4px;
+    margin-bottom: 6px;
 }
 
 .input {
@@ -100,6 +107,7 @@ ul {
     width: 96%;
     padding: 15px ;
     outline: none;
+    margin-bottom: 5px;
 }
 
 .enviar {
