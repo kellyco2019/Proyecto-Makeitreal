@@ -31,12 +31,7 @@ h2 {
     margin: 10px;
 }
 
-.canales li:hover {
-    background-color: #757477;
-}
-
 .canales {
-    
     color: #eae9eb;
     font-family: Content-font, Roboto, sans-serif;
     border-radius: 0.5em;
@@ -44,6 +39,10 @@ h2 {
     padding-inline-start: 0px ;
     margin-left: 20px;  
 } 
+
+.canales li:hover {
+    background-color: #757477;
+}
 
 .c1 {
     background-color: #1164A3;
@@ -60,9 +59,42 @@ ul {
     font-family: Content-font, Roboto, sans-serif;
 }
 
+.cajamensajes {
+
+    display: flex;
+    height: 50;
+    width: auto;
+    margin: 20px;
+}
+
+.imagperfil {
+    border-radius: 5px;
+    display: inline;
+    margin: 0,5px;
+}
+
 .nombre {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
+    display: inline;
+   
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.time-right{
+    
+    font-size: 10px;
+    display: inline;
+}
+
+.texto{
+    display: block;
+    font-family: Content-font, Roboto, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .mensajes {
@@ -74,16 +106,6 @@ ul {
     display : flex;
     flex-direction: column;
     justify-content: flex-end;  
-}
-
-.imagperfil {
-    border-radius: 5px;
-}
-.cajamensajes {
-    width: auto;
-    height: 50px;
-    margin: 30px;
-
 }
 
 .chat {
