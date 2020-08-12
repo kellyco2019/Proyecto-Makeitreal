@@ -12,7 +12,7 @@ $enviar.addEventListener("click",() => {
      if (value !== "") {
         const now = new Date();
 
-        const mensajes = {
+        const mensaje = {
         time: `${now.getHours()}:${now.getMinutes()}`,
         content: value,
         author: {
@@ -20,9 +20,10 @@ $enviar.addEventListener("click",() => {
             image: "https://lorempixel.com/output/people-q-g-50-50-1.jpg",
         },
     };
-        printMensajes(mensajes);
-        mensaje.push(mensajes);
+        printMensaje(mensaje);
+        mensajes.push(mensaje);
         $input.value = "";
+        
     }   
 });
 
@@ -54,8 +55,8 @@ const  mensajes = [
     },
 ];
 
-function printMensajes(mensajes) { 
-    const {author, time, content} = mensajes;
+function printMensaje(mensaje) { 
+    const {author, time, content} = mensaje;
    
     const template = `<li class="cajamensajes">
     <div> 
@@ -71,8 +72,8 @@ function printMensajes(mensajes) {
     $chat.innerHTML += template;
 
 }  
-mensajes.forEach((mensajes) => {
-    printMensajes(mensajes);
+mensajes.forEach((mensaje) => {
+    printMensaje(mensaje);
 //for (let i= 0; i < mensajes.length ; i++ ) {
     //printMessage(mensajes[i]);
 });   
