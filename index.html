@@ -1,44 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Slack Proyecto</title>
-        <link href="style.css" rel="stylesheet" > 
-    </head>
-    <body>
-        <div class="slack">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack Proyecto</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="slack">
+      <div>
+        <h2>chat</h2>
+        <ul class="canales">
+          <li class="c1">#course</li>
+          <li class="c2">#css</li>
+          <li class="c2">#ejercicios</li>
+          <li class="c2">#frameworks</li>
+          <li class="c2">#general</li>
+          <li class="c2">#git</li>
+          <li class="c2">#html</li>
+          <li class="c2">#javascript</li>
+        </ul>
+      </div>
+
+      <div class="mensajes">
+        <ul class="chat">
+          <li class="cajamensajes">
             <div>
-                <h2>chat</h2>
-                <ul class="canales">
-                    <li class="c1">#course</li>
-                    <li class="c2">#css</li>
-                    <li class="c2">#ejercicios</li>
-                    <li class="c2">#frameworks</li>
-                    <li class="c2">#general</li>
-                    <li class="c2">#git</li>
-                    <li class="c2">#html</li>
-                    <li class="c2">#javascript</li>
-                </ul>
+              <img
+                class="imagperfil"
+                src="https://lorempixel.com/output/people-q-g-50-50-1.jpg"
+                alt="imagen-perfil"
+              />
             </div>
-            
-            <div class="mensajes">
-                 <ul class="chat">
-                 </ul>
-                <form class="escribeaqui">
-                    <input
-                        class="input"
-                        placeholder="Escribe tu mensaje aqui"
-                        type="text"
-                        autocomplete="off"
-                        autofocus=""
-                        id="msj"
-                    />
-                    <button class="enviar" type="image">></button> 
-                </form>
+            <div class="contenido">
+              <h4 class="nombre">Gina Gonzalez</h4>
+              <p class="time-right">11:00</p>
+              <p class="texto">Hola como vas?</p>
             </div>
-        </div> 
-        <script src="app.js" ></script>   
-    </body>
+          </li>
+          <li class="cajamensajes">
+            <div>
+              <img
+                class="imagperfil"
+                src="https://lorempixel.com/output/people-q-g-50-50-1.jpg"
+                alt="imagen-perfil"
+              />
+            </div>
+            <div class="contenido">
+              <h4 class="nombre">Kelly Correa</h4>
+              <p class="time-right">11:10</p>
+              <p class="texto">ya tenemos todo listo!</p>
+            </div>
+          </li>
+          <li class="cajamensajes">
+            <div>
+              <img
+                class="imagperfil"
+                src="https://lorempixel.com/output/people-q-g-50-50-1.jpg"
+                alt="imagen-perfil"
+              />
+            </div>
+            <div class="contenido">
+              <h4 class="nombre">Alexandra Lamadrid</h4>
+              <p class="time-right">11:30</p>
+              <p class="texto">perfecto!</p>
+            </div>
+          </li>
+          <li class="cajamensajes">
+            <div>
+              <img
+                class="imagperfil"
+                src="https://lorempixel.com/output/people-q-g-50-50-1.jpg"
+                alt="imagen-perfil"
+              />
+            </div>
+            <div class="contenido">
+              <h4 class="nombre">leonardo Tellez</h4>
+              <p class="time-right">11:33</p>
+              <p class="texto">ya envio la información</p>
+            </div>
+          </li>
+        </ul>
+        <form class="escribeaqui">
+          <input
+            class="input"
+            placeholder="Escribe tu mensaje aqui"
+            type="text"
+            autocomplete="off"
+            autofocus=""
+            id="msj"
+          />
+          <button class="enviar" type="submit">></button>
+        </form>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./app2.js"></script>
+  </body>
 </html>
-                
